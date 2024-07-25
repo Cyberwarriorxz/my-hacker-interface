@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek's Hacker Interface</title>
+    <style>
+        body {
+            font-family: "Courier New", Courier, monospace;
+            background-color: #000;
+            color: #0f0;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+        .hacker-text {
+            animation: blink 1s step-end infinite;
+        }
+        @keyframes blink {
+            from, to { color: transparent; }
+            50% { color: #0f0; }
+        }
+        #hacker-eyes {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+        }
+        #spinner {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Abhishek's Cyber World</h1>
+    <div id="hacker-eyes">
+        <img src="hacker-eyes.png" alt="Hacker Eyes" width="50">
+    </div>
+    <div id="spinner">
+        <img src="fidget-spinner.gif" alt="Fidget Spinner" width="50">
+    </div>
+    <div class="hacker-text">
+        <p>_ Initializing system...</p>
+        <p>_ Loading modules...</p>
+        <p>_ Access granted.</p>
+    </div>
+</body>
+</html>
